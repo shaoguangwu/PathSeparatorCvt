@@ -69,7 +69,7 @@ void MultiConvertor::on_btnCopyWinStyle_clicked()
 
 void MultiConvertor::on_btnCopyUnixStyle_clicked()
 {
-    setClipboardText(getWindowsStylePaths());
+    setClipboardText(getUnixStylePaths());
 }
 
 void MultiConvertor::on_btnAddPath_clicked()
